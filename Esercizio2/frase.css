@@ -39,7 +39,6 @@
 .parole {
     display: inline-block;
     position: relative;
-    overflow: hidden;
     color: cornflowerblue;
 }
 
