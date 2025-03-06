@@ -20,7 +20,7 @@
 
 @keyframes slideWords {
     0% {
-        transform: translateY(-50px);
+        transform: translateY(-100px);
         opacity: 0;
     }
 
@@ -30,7 +30,7 @@
     }
 
     100% {
-        transform: translateY(50px);
+        transform: translateY(100px);
         opacity: 0;
     }
 
@@ -38,14 +38,14 @@
 
 .parole {
     display: inline-block;
-    position: relative;
+
     color: cornflowerblue;
 }
 
 .parole i {
     display: block;
     animation: slideWords 4s ease-in-out infinite;
-    position: absolute;
+
     width: 100%;
     text-align: center;
 }
