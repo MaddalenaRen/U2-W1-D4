@@ -1,0 +1,151 @@
+body {
+    font-family: "Shadows Into Light", cursive;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #666666;
+}
+
+.row-1 {
+    display: flex;
+    position: relative;
+}
+
+.row-2 {
+    display: flex;
+    position: relative;
+}
+
+
+.post-it {
+    width: 250px;
+    height: 200px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    transition: all 0.25s linear 0s;
+
+
+}
+
+.post-it:hover {
+    transform: rotate(0deg) scale(1.1);
+    z-index: 5;
+}
+
+
+
+
+h3 {
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: medium;
+}
+
+#post-1,
+#post-5,
+#post-7 {
+    background-color: #f7f7c5;
+}
+
+
+#post-2,
+#post-4,
+#post-8 {
+    background-color: #c5f2c7;
+}
+
+#post-3,
+#post-6 {
+    background-color: #c6c6f1;
+
+
+}
+
+#post-1 {
+    transform: rotate(357deg);
+
+}
+
+#post-1:hover {
+    transform: rotate(0);
+    transform: scale(1.2);
+}
+
+#post-2 {
+    transform: rotate(15deg);
+
+}
+
+#post-2:hover {
+    transform: rotate(0);
+    transform: scale(1.2);
+}
+
+#post-3 {
+    transform: rotate(350deg);
+
+}
+
+#post-3:hover {
+    transform: rotate(0);
+    transform: scale(1.2);
+}
+
+#post-4 {
+    transform: rotate(22deg);
+
+}
+
+#post-4:hover {
+    transform: rotate(0);
+    transform: scale(1.2);
+}
+
+#post-5 {
+    transform: rotate(348deg);
+
+}
+
+#post-5:hover {
+    transform: rotate(0);
+    transform: scale(1.2);
+}
+
+#post-6 {
+    transform: rotate(344deg);
+
+}
+
+#post-6:hover {
+    transform: rotate(0);
+    transform: scale(1.2);
+}
+
+#post-7 {
+    transform: rotate(337deg);
+
+}
+
+#post-7:hover {
+    transform: rotate(0);
+    transform: scale(1.2);
+}
+
+#post-8 {
+    transform: rotate(351deg);
+
+}
+
+#post-8:hover {
+    transform: rotate(0);
+    transform: scale(1.2);
+}
